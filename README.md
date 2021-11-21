@@ -24,12 +24,14 @@ EMAIL=test@greeter.test
 
 ##### prod
 1. Add envs
-2. `npm run build`
-3. `npm run start`
+2. `npm ci`
+3. `npm run build`
+4. `npm run start`
 
 #### dev
 1. `cp .env.dist .env`
-2. `npm run dev`
+2. `npm ci`
+3. `npm run dev`
 
 #### test
 `npm run qc`
